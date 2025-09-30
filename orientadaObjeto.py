@@ -10,5 +10,5 @@ class Pessoa:
     def setIdade(self, idade):
         self.idade = idade
 
-p = Pessoa("Ana", 25)
+p = Pessoa("davi", 18)
 p.imprimir()
