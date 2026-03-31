@@ -6,12 +6,12 @@ def ler_matriz(nome):
     matriz = [0] * linha
 
     for l in range (len(matriz)):
-        matriz[l] = [0] * coluna
+        matriz[l] = [1] * coluna
 
-    for l in range(len(matriz)):
-        for c in range(len(matriz[l])):
+    for l in range(linha):
+        for c in range(coluna):
             matriz[l][c] = l * c
-    print(matriz)
+
     return matriz
 
 matriz1 = ler_matriz("A")
